@@ -2,6 +2,8 @@
 
 ![Demo with Playing Source](pvlol-lazysharp.png)
 
+How it works: Hook inject. [When the hook takes the point, if the dll sees that point, it will be injected and run] If the pointer does not get the desired value, the dll will not be inject.
+
 # How to find a hook pointer?
 55 8B EC 81 C4 ?? ?? ?? ?? sigma engine with find
 This is an offset value. Copy pointer.
