@@ -11,7 +11,7 @@ Garena Server DLL : http://dl.seotop.org/PVLOL_QTE/PVLOL103.DAT
 How it works: Hook inject. [When the hook takes the point, if the dll sees that point, it will be injected and run] If the pointer does not get the desired value, the dll will not be inject.
 
 # How to find a hook pointer?
-55 8B EC 81 C4 ?? ?? ?? ?? sigma engine with find
+85 F6 74 0F 8D ?? ?? ?? ?? sigma engine with find
 This is an offset value. Copy pointer.
 Paste it into the writepointerinteger array in the Pvlol_succes section.
 Put the dll you want to be next to the exe program.
@@ -30,7 +30,7 @@ My Contact: sanghoontargaryen@yandex.com
 작동 방식 : 후크 인 젝트. [후크가 점을 찍을 때 dll이 해당 점을 발견하면 주입되고 실행됩니다] 포인터가 원하는 값을 얻지 못하면 dll이 주입되지 않습니다.
 
 # 후크 포인터를 찾는 방법?
-55 8B EC 81 C4 ?? ?? ?? ?? 찾기 시그마 엔진
+85 F6 74 0F 8D ?? ?? ?? ?? 찾기 시그마 엔진
 이것은 오프셋 값입니다. 포인터를 복사하십시오.
 Pvlol_succes 섹션의 writepointerinteger 배열에 붙여 넣습니다.
 exe 프로그램 옆에 원하는 dll을 넣으십시오.
