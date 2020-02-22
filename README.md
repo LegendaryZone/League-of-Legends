@@ -1,8 +1,10 @@
-# [10.4 UPDATE]
+# SCREEN PVLOL [10.4 UPDATE]
 ![Demo with Playing Source](pvlol-lazysharp.png)
 
 Core Control : http://dl.seotop.org/PVLOL_QTE/Core1.json
+
 Riot Server DLL : http://dl.seotop.org/PVLOL_QTE/PVLOL104.DAT
+
 Garena Server DLL : http://dl.seotop.org/PVLOL_QTE/PVLOL103.DAT
 
 # PVLOL Hook Inject [10.4]
