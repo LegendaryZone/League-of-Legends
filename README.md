@@ -1,13 +1,21 @@
-# Sanghoon - PVLOL Hook Inject
+# PVLOL Hook Inject [10.4 UPDATE]
 
 ![Demo with Playing Source](pvlol-lazysharp.png)
 
-# We broke the Eazfuscator protection and read inside. GG MemoryHackers
+# How to find a hook pointer?
+55 8B EC 81 C4 ?? ?? ?? ?? sigma engine with find
+This is an offset value. Copy pointer.
+Paste it into the writepointerinteger array in the Pvlol_succes section.
+Put the dll you want to be next to the exe program.
+
+# We broke the Eazfuscator protection and read inside.
 The method of injecting the software in the MemoryHackers platform with the hook method is shown.
 LazySharp - General dependencies
 This is free distributed software. We do not accept legal responsibility. It is shared only for learning and software development purposes.
 
 My Contact: sanghoontargaryen@yandex.com
+
+==============================================================
 
 # 상훈-PVLOL Hook Inject
 # 우리는 Eazfuscator 보호를 중단하고 내부를 읽습니다. GG 메모리 해커
