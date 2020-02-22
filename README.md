@@ -1,7 +1,7 @@
-# PVLOL Hook Inject [10.4 UPDATE]
-
+# [10.4 UPDATE]
 ![Demo with Playing Source](pvlol-lazysharp.png)
 
+# PVLOL Hook Inject [10.4]
 How it works: Hook inject. [When the hook takes the point, if the dll sees that point, it will be injected and run] If the pointer does not get the desired value, the dll will not be inject.
 
 # How to find a hook pointer?
@@ -19,7 +19,7 @@ My Contact: sanghoontargaryen@yandex.com
 
 ==============================================================
 
-# PVLOL 후크 인 젝트 [10.4 업데이트]
+# PVLOL 후크 인 젝트 [10.4]
 
 작동 방식 : 후크 인 젝트. [후크가 점을 찍을 때 dll이 해당 점을 발견하면 주입되고 실행됩니다] 포인터가 원하는 값을 얻지 못하면 dll이 주입되지 않습니다.
 
