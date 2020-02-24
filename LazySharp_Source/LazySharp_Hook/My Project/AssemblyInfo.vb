@@ -11,8 +11,8 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("LazySharp Hook")>
 <Assembly: AssemblyDescription("LazySharp Hook")>
-<Assembly: AssemblyCompany("[10.3] Garena Script")>
-<Assembly: AssemblyProduct("[10.3] Garena Script")>
+<Assembly: AssemblyCompany("[10.4] Garena Script")>
+<Assembly: AssemblyProduct("[10.4] Garena Script")>
 <Assembly: AssemblyCopyright("Copyright © 2020 - LazySharp")>
 <Assembly: AssemblyTrademark("")>
 

@@ -161,6 +161,7 @@ Public Class Form_Inject1
 
     Private Sub Export_Tick(sender As Object, e As EventArgs) Handles Export.Tick
         'DLL WRITE EXPORT SYSTEM
+        Inject_Control()
         Timer_Inject2.Interval = 5000
         Timer_Inject2.Start()
         System.IO.File.WriteAllBytes(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\lazysharp_garena.dll", My.Resources.lazysharp_garena)

